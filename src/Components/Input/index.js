@@ -1,7 +1,7 @@
 import React from "react";
 import { InputCustomizado } from "./styles"
 
-const Input = () => {
+const Input = ({ innerRef }) => {
     return ( 
         <InputCustomizado />
      );
